@@ -212,11 +212,16 @@ def main() -> None:
     for st in subtype_labels:
         mask = obs[ann_col] == st
         times = obs[time_col].astype(float)[mask]
-        thr = float(np.percentile(times, TERMINAL_DIFF_PERCENTILE)) if len(times) else 0
+        n_st = int(mask.sum())
+        if n_st == 0:
+            continue
+        thr = float(np.percentile(times, TERMINAL_DIFF_PERCENTILE))
         late = mask & (obs[time_col].astype(float) >= thr)
         n_late = int(late.sum())
         use_mask = late if n_late >= MIN_CELLS_PER_TYPE else mask
         idx = np.where(use_mask.values)[0]
+        if len(idx) == 0:
+            continue
         blk = neuron_view.X[idx, :]
         mean_expr = np.asarray(blk.mean(0)).ravel() if sp.issparse(blk) else blk.mean(0).ravel()
         subtype_means_list.append(mean_expr.astype(np.float32))
