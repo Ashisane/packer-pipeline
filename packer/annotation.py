@@ -24,6 +24,21 @@ _DIRECTIONAL_SUFFIXES: tuple[str, ...] = ("DL", "DR", "VL", "VR")
 
 _DEFAULT_MANUAL_EXCEPTIONS: dict[str, str] = {}
 
+SENSORY_PREFIXES: list[str] = [
+    "ADL", "ADF", "AFD", "ALM", "ALN", "ASE", "ASG", "ASH", "ASI",
+    "ASJ", "ASK", "AUA", "AVM", "AWA", "AWB", "AWC", "BAG", "CEP",
+    "FLP", "IL1", "IL2", "OLL", "OLQ", "PLM", "PLN", "PVD", "SDQ",
+    "URX", "URY", "AIM",
+]
+MOTOR_PREFIXES: list[str] = ["DA", "DB", "DD", "VA", "VB", "VD", "VC", "AS"]
+INTERNEURON_PREFIXES: list[str] = [
+    "AIA", "AIB", "AIN", "AIY", "AIZ", "AVA", "AVB", "AVD", "AVE", "AVF",
+    "AVG", "AVH", "AVJ", "AVK", "AVL", "BDU", "DVA", "DVB", "DVC", "LUA",
+    "PVC", "PVN", "PVP", "PVQ", "PVR", "PVT", "PVW", "RIA", "RIB", "RIC",
+    "RIF", "RIG", "RIH", "RIM", "RIP", "RIS", "RIV", "SIA", "SIB", "SMB",
+    "SMD", "HSN", "PDE", "ALA", "ADE",
+]
+
 RULE_NAMES: dict[str, str] = {
     "direct": "direct match (name identical in both datasets)",
     "A": "strip bilateral suffix (L or R)",
