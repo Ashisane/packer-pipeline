@@ -237,3 +237,66 @@ class ExpressionMatrix:
             profiles=profiles,
             unmapped_neurons=unmapped,
         )
+
+    def check_markers(
+        self, result: ExpressionMatrixResult
+    ) -> list[MarkerCheckResult]:
+        """
+        Validate expression profiles against known cell-type marker genes.
+
+        For each (neuron_type, marker_gene) pair in MARKER_GENES, compute the
+        fold change of expression in the target type versus all other neurons.
+        A fold change > 2 is consistent with correct cell-type resolution.
+        This is a biological sanity check, not a statistical test.
+        """
+        gene_col_map = {name: i for i, name in enumerate(result.gene_names)}
+        neuron_row_map = {name: i for i, name in enumerate(result.neuron_names)}
+
+        checks: list[MarkerCheckResult] = []
+
+        for neuron_type, markers in MARKER_GENES.items():
+            type_rows = [
+                i for name, i in neuron_row_map.items()
+                if self._mapping.get(name) == neuron_type
+            ]
+            other_rows = [
+                i for i in range(len(result.neuron_names))
+                if i not in type_rows
+            ]
+
+            for gene_name in markers:
+                if gene_name not in gene_col_map:
+                    checks.append(
+                        MarkerCheckResult(
+                            neuron_type=neuron_type,
+                            marker_gene=gene_name,
+                            expression_in_type=0.0,
+                            expression_in_others=0.0,
+                            fold_change=0.0,
+                            gene_found=False,
+                        )
+                    )
+                    continue
+
+                col = gene_col_map[gene_name]
+                expr_type = float(result.X[type_rows, col].mean()) if type_rows else 0.0
+                expr_others = float(result.X[other_rows, col].mean()) if other_rows else 0.0
+                fc = expr_type / max(expr_others, 1e-9)
+
+                checks.append(
+                    MarkerCheckResult(
+                        neuron_type=neuron_type,
+                        marker_gene=gene_name,
+                        expression_in_type=expr_type,
+                        expression_in_others=expr_others,
+                        fold_change=fc,
+                        gene_found=True,
+                    )
+                )
+
+                log.debug(
+                    "Marker %s in %s: in-type=%.3f, others=%.3f, FC=%.2f",
+                    gene_name, neuron_type, expr_type, expr_others, fc,
+                )
+
+        return checks
