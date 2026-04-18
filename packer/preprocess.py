@@ -160,3 +160,81 @@ class GNNPreprocessor:
             n_covered=n_covered,
             n_missing=n_missing,
         )
+
+    def save(
+        self,
+        output: PreprocessorOutput,
+        output_dir: str | Path,
+        gene_metadata: Optional[dict] = None,
+        neuron_profiles: Optional[dict] = None,
+    ) -> dict[str, str]:
+        """
+        Write all GNN-ready artefacts to disk.
+
+        The GNN training script can load X_tensor.pt and the two JSON index
+        files without re-running the pipeline.  Returns a dict of
+        {artifact_name: filepath} for inclusion in the pipeline manifest.
+        """
+        out = Path(output_dir)
+        out.mkdir(parents=True, exist_ok=True)
+
+        torch.save(output.X_tensor, out / FNAME_X)
+        torch.save(output.coverage_mask, out / FNAME_MASK)
+
+        with open(out / FNAME_NEURONS, "w") as f:
+            json.dump(output.neuron_index, f, indent=2)
+        with open(out / FNAME_GENES, "w") as f:
+            json.dump(output.gene_index, f, indent=2)
+
+        if gene_metadata:
+            with open(out / FNAME_GENE_META, "w") as f:
+                json.dump(gene_metadata, f, indent=2)
+        if neuron_profiles:
+            with open(out / FNAME_PROFILES, "w") as f:
+                json.dump(neuron_profiles, f, indent=2)
+
+        produced = {
+            "X_tensor":      str(out / FNAME_X),
+            "coverage_mask": str(out / FNAME_MASK),
+            "neuron_index":  str(out / FNAME_NEURONS),
+            "gene_index":    str(out / FNAME_GENES),
+        }
+        if gene_metadata:
+            produced["gene_metadata"] = str(out / FNAME_GENE_META)
+        if neuron_profiles:
+            produced["neuron_profiles"] = str(out / FNAME_PROFILES)
+
+        log.info("Saved %d artefacts to '%s'", len(produced), out)
+        return produced
+
+    def verify_against_adjacency(
+        self,
+        output: PreprocessorOutput,
+        adjacency_neurons: list[str],
+    ) -> dict[str, list[str]]:
+        """
+        Check that every neuron in an adjacency matrix has a row in X_tensor.
+
+        Returns a dict with keys 'missing_from_X' (neurons in the adjacency
+        but not in output.neuron_index) and 'extra_in_X' (neurons in X but
+        not in the adjacency).  Both lists should ideally be empty.
+        """
+        adj_set = set(adjacency_neurons)
+        x_set   = set(output.neuron_index.keys())
+
+        missing = sorted(adj_set - x_set)
+        extra   = sorted(x_set - adj_set)
+
+        if missing:
+            log.warning(
+                "%d adjacency neurons have no row in X_tensor: %s",
+                len(missing), missing[:10],
+            )
+        if extra:
+            log.info(
+                "%d neurons in X_tensor are not in the adjacency (expected"
+                " for complete-neuron atlases): %s",
+                len(extra), extra[:10],
+            )
+
+        return {"missing_from_X": missing, "extra_in_X": extra}
