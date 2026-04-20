@@ -166,3 +166,19 @@ and scientifically interesting question.
 ---
 
 *Pipeline report auto-generated from manifest.json and empirical run results.*
+
+---
+
+## 6. CeNGEN Compatibility Note
+
+The CeNGEN dataset (Taylor et al. 2021, *Neuron* 111, 1106-1129.e6) covers
+all 302 C. elegans neurons at L4/adult stage and would recover the motor
+neuron coverage gap documented in Section 3.  A future pipeline version
+could use CeNGEN node features for motor neurons and Packer node features
+for sensory/interneuron classes, with `coverage_mask` indicating which
+atlas each row originates from.
+
+The scientific trade-off: Packer captures embryonic terminal differentiation;
+CeNGEN captures post-larval identity.  Whether embryonic or larval expression
+better predicts hatching-stage synaptic connectivity is an open question and
+a natural follow-on experiment.
