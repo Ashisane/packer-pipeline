@@ -150,4 +150,4 @@ If you use this pipeline, please cite:
 - Witvliet D et al. (2021) Connectomes across development reveal principles
   of brain maturation. *Nature* 596, 257–261.
 
-Pipeline developed as part of the DevoWorm project (Brad Alicea, PI).
+Pipeline developed as part of the DevoWorm project.
