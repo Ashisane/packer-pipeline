@@ -1,0 +1,938 @@
+{
+  "WBGene00004890": {
+    "name": "smp-2",
+    "origin": "curated"
+  },
+  "WBGene00007799": {
+    "name": "nrx-1",
+    "origin": "curated"
+  },
+  "WBGene00004047": {
+    "name": "plx-1",
+    "origin": "curated"
+  },
+  "WBGene00006746": {
+    "name": "unc-6",
+    "origin": "curated"
+  },
+  "WBGene00006852": {
+    "name": "unc-129",
+    "origin": "curated"
+  },
+  "WBGene00006365": {
+    "name": "syg-1",
+    "origin": "curated"
+  },
+  "WBGene00001164": {
+    "name": "efn-3",
+    "origin": "curated"
+  },
+  "WBGene00000395": {
+    "name": "cdh-3",
+    "origin": "curated"
+  },
+  "WBGene00000396": {
+    "name": "cdh-4",
+    "origin": "curated"
+  },
+  "WBGene00007750": {
+    "name": "syg-2",
+    "origin": "curated"
+  },
+  "WBGene00003238": {
+    "name": "mig-1",
+    "origin": "curated"
+  },
+  "WBGene00006869": {
+    "name": "vab-2",
+    "origin": "curated"
+  },
+  "WBGene00006412": {
+    "name": "nlg-1",
+    "origin": "curated"
+  },
+  "WBGene00004370": {
+    "name": "rig-3",
+    "origin": "curated"
+  },
+  "WBGene00000478": {
+    "name": "cfz-2",
+    "origin": "curated"
+  },
+  "WBGene00006364": {
+    "name": "syd-2",
+    "origin": "curated"
+  },
+  "WBGene00001165": {
+    "name": "efn-4",
+    "origin": "curated"
+  },
+  "WBGene00004854": {
+    "name": "slt-1",
+    "origin": "curated"
+  },
+  "WBGene00004729": {
+    "name": "sax-3",
+    "origin": "curated"
+  },
+  "WBGene00003397": {
+    "name": "mom-5",
+    "origin": "curated"
+  },
+  "WBGene00001188": {
+    "name": "egl-20",
+    "origin": "curated"
+  },
+  "WBGene00004732": {
+    "name": "sax-7",
+    "origin": "curated"
+  },
+  "WBGene00004889": {
+    "name": "smp-1",
+    "origin": "curated"
+  },
+  "WBGene00003738": {
+    "name": "nid-1",
+    "origin": "curated"
+  },
+  "WBGene00003241": {
+    "name": "mig-5",
+    "origin": "curated"
+  },
+  "WBGene00003029": {
+    "name": "lin-44",
+    "origin": "curated"
+  },
+  "WBGene00006868": {
+    "name": "vab-1",
+    "origin": "curated"
+  },
+  "WBGene00006776": {
+    "name": "unc-40",
+    "origin": "curated"
+  },
+  "WBGene00001980": {
+    "name": "hmr-1",
+    "origin": "curated"
+  },
+  "WBGene00003006": {
+    "name": "lin-17",
+    "origin": "curated"
+  },
+  "WBGene00001163": {
+    "name": "efn-2",
+    "origin": "curated"
+  },
+  "WBGene00016354": {
+    "name": "rig-6",
+    "origin": "curated"
+  },
+  "WBGene00006745": {
+    "name": "unc-5",
+    "origin": "curated"
+  },
+  "WBGene00004048": {
+    "name": "plx-2",
+    "origin": "curated"
+  },
+  "WBGene00001454": {
+    "name": "flp-11",
+    "origin": "variance"
+  },
+  "WBGene00001444": {
+    "name": "flp-1",
+    "origin": "variance"
+  },
+  "WBGene00001858": {
+    "name": "hil-7",
+    "origin": "variance"
+  },
+  "WBGene00020229": {
+    "name": "T05A8.3",
+    "origin": "variance"
+  },
+  "WBGene00001462": {
+    "name": "flp-19",
+    "origin": "variance"
+  },
+  "WBGene00019282": {
+    "name": "mps-2",
+    "origin": "variance"
+  },
+  "WBGene00001451": {
+    "name": "flp-8",
+    "origin": "variance"
+  },
+  "WBGene00003171": {
+    "name": "mec-7",
+    "origin": "variance"
+  },
+  "WBGene00016114": {
+    "name": "flp-27",
+    "origin": "variance"
+  },
+  "WBGene00013882": {
+    "name": "msa-1",
+    "origin": "variance"
+  },
+  "WBGene00007883": {
+    "name": "C33A12.4",
+    "origin": "variance"
+  },
+  "WBGene00012457": {
+    "name": "acbp-6",
+    "origin": "variance"
+  },
+  "WBGene00020317": {
+    "name": "pdf-1",
+    "origin": "variance"
+  },
+  "WBGene00001898": {
+    "name": "his-24",
+    "origin": "variance"
+  },
+  "WBGene00011289": {
+    "name": "R102.2",
+    "origin": "variance"
+  },
+  "WBGene00045386": {
+    "name": "C02B4.4",
+    "origin": "variance"
+  },
+  "WBGene00044568": {
+    "name": "ntc-1",
+    "origin": "variance"
+  },
+  "WBGene00000430": {
+    "name": "ceh-5",
+    "origin": "variance"
+  },
+  "WBGene00019160": {
+    "name": "crf-1",
+    "origin": "variance"
+  },
+  "WBGene00001385": {
+    "name": "far-1",
+    "origin": "variance"
+  },
+  "WBGene00003750": {
+    "name": "nlp-12",
+    "origin": "variance"
+  },
+  "WBGene00015354": {
+    "name": "snet-1",
+    "origin": "variance"
+  },
+  "WBGene00006633": {
+    "name": "tsp-7",
+    "origin": "variance"
+  },
+  "WBGene00001452": {
+    "name": "flp-9",
+    "origin": "variance"
+  },
+  "WBGene00000217": {
+    "name": "asp-4",
+    "origin": "variance"
+  },
+  "WBGene00012239": {
+    "name": "W04A8.4",
+    "origin": "variance"
+  },
+  "WBGene00012853": {
+    "name": "Y44A6D.2",
+    "origin": "variance"
+  },
+  "WBGene00003175": {
+    "name": "mec-12",
+    "origin": "variance"
+  },
+  "WBGene00017297": {
+    "name": "F09E10.7",
+    "origin": "variance"
+  },
+  "WBGene00009496": {
+    "name": "F36H1.11",
+    "origin": "variance"
+  },
+  "WBGene00000561": {
+    "name": "cnd-1",
+    "origin": "variance"
+  },
+  "WBGene00044705": {
+    "name": "T22F3.12",
+    "origin": "variance"
+  },
+  "WBGene00001853": {
+    "name": "hil-2",
+    "origin": "variance"
+  },
+  "WBGene00044387": {
+    "name": "C27A2.8",
+    "origin": "variance"
+  },
+  "WBGene00002101": {
+    "name": "ins-18",
+    "origin": "variance"
+  },
+  "WBGene00020190": {
+    "name": "guk-1",
+    "origin": "variance"
+  },
+  "WBGene00010335": {
+    "name": "F59F3.6",
+    "origin": "variance"
+  },
+  "WBGene00206386": {
+    "name": "K10C2.12",
+    "origin": "variance"
+  },
+  "WBGene00002253": {
+    "name": "lbp-1",
+    "origin": "variance"
+  },
+  "WBGene00008760": {
+    "name": "F13E9.11",
+    "origin": "variance"
+  },
+  "WBGene00001455": {
+    "name": "flp-12",
+    "origin": "variance"
+  },
+  "WBGene00012420": {
+    "name": "Y7A9D.1",
+    "origin": "variance"
+  },
+  "WBGene00008589": {
+    "name": "nlp-57",
+    "origin": "variance"
+  },
+  "WBGene00003167": {
+    "name": "mec-3",
+    "origin": "variance"
+  },
+  "WBGene00003753": {
+    "name": "nlp-15",
+    "origin": "variance"
+  },
+  "WBGene00019228": {
+    "name": "H23L24.1",
+    "origin": "variance"
+  },
+  "WBGene00010982": {
+    "name": "flp-32",
+    "origin": "variance"
+  },
+  "WBGene00022276": {
+    "name": "nlp-40",
+    "origin": "variance"
+  },
+  "WBGene00001915": {
+    "name": "his-41",
+    "origin": "variance"
+  },
+  "WBGene00011500": {
+    "name": "T05G5.5",
+    "origin": "variance"
+  },
+  "WBGene00001458": {
+    "name": "flp-15",
+    "origin": "variance"
+  },
+  "WBGene00011141": {
+    "name": "R08B4.5",
+    "origin": "variance"
+  },
+  "WBGene00044686": {
+    "name": "flp-28",
+    "origin": "variance"
+  },
+  "WBGene00019324": {
+    "name": "K02F2.5",
+    "origin": "variance"
+  },
+  "WBGene00006778": {
+    "name": "unc-42",
+    "origin": "variance"
+  },
+  "WBGene00000037": {
+    "name": "ace-3",
+    "origin": "variance"
+  },
+  "WBGene00045336": {
+    "name": "R11D1.12",
+    "origin": "variance"
+  },
+  "WBGene00077775": {
+    "name": "T07C12.15",
+    "origin": "variance"
+  },
+  "WBGene00001957": {
+    "name": "hlh-13",
+    "origin": "variance"
+  },
+  "WBGene00010236": {
+    "name": "F58B4.3",
+    "origin": "variance"
+  },
+  "WBGene00016088": {
+    "name": "clec-266",
+    "origin": "variance"
+  },
+  "WBGene00004346": {
+    "name": "rgs-3",
+    "origin": "variance"
+  },
+  "WBGene00003759": {
+    "name": "nlp-21",
+    "origin": "variance"
+  },
+  "WBGene00019828": {
+    "name": "R02E12.4",
+    "origin": "variance"
+  },
+  "WBGene00009119": {
+    "name": "ndk-1",
+    "origin": "variance"
+  },
+  "WBGene00009958": {
+    "name": "madd-4",
+    "origin": "variance"
+  },
+  "WBGene00206538": {
+    "name": "C09G5.13",
+    "origin": "variance"
+  },
+  "WBGene00006766": {
+    "name": "unc-30",
+    "origin": "variance"
+  },
+  "WBGene00077763": {
+    "name": "glb-34",
+    "origin": "variance"
+  },
+  "WBGene00002989": {
+    "name": "lim-7",
+    "origin": "variance"
+  },
+  "WBGene00017076": {
+    "name": "D2096.9",
+    "origin": "variance"
+  },
+  "WBGene00006985": {
+    "name": "zig-8",
+    "origin": "variance"
+  },
+  "WBGene00010234": {
+    "name": "ttr-50",
+    "origin": "variance"
+  },
+  "WBGene00003111": {
+    "name": "mab-20",
+    "origin": "variance"
+  },
+  "WBGene00194921": {
+    "name": "ZK742.7",
+    "origin": "variance"
+  },
+  "WBGene00011392": {
+    "name": "sbt-1",
+    "origin": "variance"
+  },
+  "WBGene00019975": {
+    "name": "flp-34",
+    "origin": "variance"
+  },
+  "WBGene00001854": {
+    "name": "hil-3",
+    "origin": "variance"
+  },
+  "WBGene00002105": {
+    "name": "ins-22",
+    "origin": "variance"
+  },
+  "WBGene00022441": {
+    "name": "Y110A2AL.4",
+    "origin": "variance"
+  },
+  "WBGene00018298": {
+    "name": "nlp-50",
+    "origin": "variance"
+  },
+  "WBGene00020368": {
+    "name": "ast-1",
+    "origin": "variance"
+  },
+  "WBGene00000066": {
+    "name": "act-4",
+    "origin": "variance"
+  },
+  "WBGene00001448": {
+    "name": "flp-5",
+    "origin": "variance"
+  },
+  "WBGene00015514": {
+    "name": "C06A8.3",
+    "origin": "variance"
+  },
+  "WBGene00011383": {
+    "name": "T02E9.5",
+    "origin": "variance"
+  },
+  "WBGene00000188": {
+    "name": "arl-3",
+    "origin": "variance"
+  },
+  "WBGene00011564": {
+    "name": "ugt-50",
+    "origin": "variance"
+  },
+  "WBGene00008484": {
+    "name": "E04D5.5",
+    "origin": "variance"
+  },
+  "WBGene00020929": {
+    "name": "W02C12.2",
+    "origin": "variance"
+  },
+  "WBGene00016028": {
+    "name": "flp-24",
+    "origin": "variance"
+  },
+  "WBGene00022661": {
+    "name": "ZK112.5",
+    "origin": "variance"
+  },
+  "WBGene00003657": {
+    "name": "nhr-67",
+    "origin": "variance"
+  },
+  "WBGene00016561": {
+    "name": "eri-6",
+    "origin": "variance"
+  },
+  "WBGene00018348": {
+    "name": "F42C5.6",
+    "origin": "variance"
+  },
+  "WBGene00018519": {
+    "name": "F46H5.3",
+    "origin": "variance"
+  },
+  "WBGene00009887": {
+    "name": "glb-17",
+    "origin": "variance"
+  },
+  "WBGene00003934": {
+    "name": "pat-10",
+    "origin": "variance"
+  },
+  "WBGene00010647": {
+    "name": "K08C7.4",
+    "origin": "variance"
+  },
+  "WBGene00006562": {
+    "name": "tdc-1",
+    "origin": "variance"
+  },
+  "WBGene00194710": {
+    "name": "mks-2",
+    "origin": "variance"
+  },
+  "WBGene00017184": {
+    "name": "ncam-1",
+    "origin": "variance"
+  },
+  "WBGene00010848": {
+    "name": "M04B2.6",
+    "origin": "variance"
+  },
+  "WBGene00007487": {
+    "name": "C09G1.5",
+    "origin": "variance"
+  },
+  "WBGene00021272": {
+    "name": "Y23H5B.1",
+    "origin": "variance"
+  },
+  "WBGene00012325": {
+    "name": "W07A12.8",
+    "origin": "variance"
+  },
+  "WBGene00016289": {
+    "name": "lntl-1",
+    "origin": "variance"
+  },
+  "WBGene00001911": {
+    "name": "his-37",
+    "origin": "variance"
+  },
+  "WBGene00001990": {
+    "name": "hot-5",
+    "origin": "variance"
+  },
+  "WBGene00001612": {
+    "name": "glr-1",
+    "origin": "variance"
+  },
+  "WBGene00006818": {
+    "name": "unc-86",
+    "origin": "variance"
+  },
+  "WBGene00000170": {
+    "name": "aqp-2",
+    "origin": "variance"
+  },
+  "WBGene00013336": {
+    "name": "pnc-2",
+    "origin": "variance"
+  },
+  "WBGene00012391": {
+    "name": "Y6B3B.7",
+    "origin": "variance"
+  },
+  "WBGene00010957": {
+    "name": "nduo-6",
+    "origin": "variance"
+  },
+  "WBGene00000915": {
+    "name": "daf-21",
+    "origin": "variance"
+  },
+  "WBGene00017671": {
+    "name": "pgal-1",
+    "origin": "variance"
+  },
+  "WBGene00003890": {
+    "name": "osm-10",
+    "origin": "variance"
+  },
+  "WBGene00006439": {
+    "name": "ant-1.1",
+    "origin": "variance"
+  },
+  "WBGene00004091": {
+    "name": "pps-1",
+    "origin": "variance"
+  },
+  "WBGene00011453": {
+    "name": "ugt-56",
+    "origin": "variance"
+  },
+  "WBGene00016107": {
+    "name": "C25G6.1",
+    "origin": "variance"
+  },
+  "WBGene00018304": {
+    "name": "agr-1",
+    "origin": "variance"
+  },
+  "WBGene00249817": {
+    "name": "F42G8.19",
+    "origin": "variance"
+  },
+  "WBGene00000434": {
+    "name": "ceh-9",
+    "origin": "variance"
+  },
+  "WBGene00013748": {
+    "name": "ssu-1",
+    "origin": "variance"
+  },
+  "WBGene00009743": {
+    "name": "sptf-1",
+    "origin": "variance"
+  },
+  "WBGene00018590": {
+    "name": "nlp-37",
+    "origin": "variance"
+  },
+  "WBGene00003851": {
+    "name": "odr-4",
+    "origin": "variance"
+  },
+  "WBGene00007515": {
+    "name": "C10C6.7",
+    "origin": "variance"
+  },
+  "WBGene00006762": {
+    "name": "unc-25",
+    "origin": "variance"
+  },
+  "WBGene00016463": {
+    "name": "C35E7.11",
+    "origin": "variance"
+  },
+  "WBGene00001445": {
+    "name": "flp-2",
+    "origin": "variance"
+  },
+  "WBGene00003744": {
+    "name": "nlp-6",
+    "origin": "variance"
+  },
+  "WBGene00044068": {
+    "name": "syd-9",
+    "origin": "variance"
+  },
+  "WBGene00015687": {
+    "name": "chdp-1",
+    "origin": "variance"
+  },
+  "WBGene00008288": {
+    "name": "C54C6.6",
+    "origin": "variance"
+  },
+  "WBGene00011433": {
+    "name": "pde-1",
+    "origin": "variance"
+  },
+  "WBGene00015619": {
+    "name": "C08G9.1",
+    "origin": "variance"
+  },
+  "WBGene00019854": {
+    "name": "R03H10.1",
+    "origin": "variance"
+  },
+  "WBGene00000277": {
+    "name": "cab-1",
+    "origin": "variance"
+  },
+  "WBGene00000534": {
+    "name": "cpi-2",
+    "origin": "variance"
+  },
+  "WBGene00019867": {
+    "name": "R04B3.2",
+    "origin": "variance"
+  },
+  "WBGene00002018": {
+    "name": "hsp-16.41",
+    "origin": "variance"
+  },
+  "WBGene00164973": {
+    "name": "C39B10.7",
+    "origin": "variance"
+  },
+  "WBGene00018271": {
+    "name": "F41C3.5",
+    "origin": "variance"
+  },
+  "WBGene00008453": {
+    "name": "E02A10.3",
+    "origin": "variance"
+  },
+  "WBGene00007722": {
+    "name": "C25D7.15",
+    "origin": "variance"
+  },
+  "WBGene00001553": {
+    "name": "gcy-33",
+    "origin": "variance"
+  },
+  "WBGene00003741": {
+    "name": "nlp-3",
+    "origin": "variance"
+  },
+  "WBGene00020634": {
+    "name": "acs-9",
+    "origin": "variance"
+  },
+  "WBGene00006380": {
+    "name": "tab-1",
+    "origin": "variance"
+  },
+  "WBGene00017278": {
+    "name": "F09C12.6",
+    "origin": "variance"
+  },
+  "WBGene00010962": {
+    "name": "ctc-3",
+    "origin": "variance"
+  },
+  "WBGene00045215": {
+    "name": "ceh-63",
+    "origin": "variance"
+  },
+  "WBGene00003756": {
+    "name": "nlp-18",
+    "origin": "variance"
+  },
+  "WBGene00012035": {
+    "name": "T26C5.5",
+    "origin": "variance"
+  },
+  "WBGene00000524": {
+    "name": "clc-3",
+    "origin": "variance"
+  },
+  "WBGene00022418": {
+    "name": "igcm-4",
+    "origin": "variance"
+  },
+  "WBGene00010965": {
+    "name": "ctc-2",
+    "origin": "variance"
+  },
+  "WBGene00012753": {
+    "name": "Y41C4A.6",
+    "origin": "variance"
+  },
+  "WBGene00002089": {
+    "name": "ins-6",
+    "origin": "variance"
+  },
+  "WBGene00017900": {
+    "name": "F28E10.1",
+    "origin": "variance"
+  },
+  "WBGene00011345": {
+    "name": "dma-1",
+    "origin": "variance"
+  },
+  "WBGene00003963": {
+    "name": "pdi-2",
+    "origin": "variance"
+  },
+  "WBGene00006543": {
+    "name": "tbx-2",
+    "origin": "variance"
+  },
+  "WBGene00004944": {
+    "name": "sol-1",
+    "origin": "variance"
+  },
+  "WBGene00017468": {
+    "name": "F14F9.5",
+    "origin": "variance"
+  },
+  "WBGene00001122": {
+    "name": "dyf-6",
+    "origin": "variance"
+  },
+  "WBGene00009879": {
+    "name": "F49C12.10",
+    "origin": "variance"
+  },
+  "WBGene00006532": {
+    "name": "tba-6",
+    "origin": "variance"
+  },
+  "WBGene00009917": {
+    "name": "glb-18",
+    "origin": "variance"
+  },
+  "WBGene00002245": {
+    "name": "lag-1",
+    "origin": "variance"
+  },
+  "WBGene00017880": {
+    "name": "F28A12.3",
+    "origin": "variance"
+  },
+  "WBGene00001971": {
+    "name": "hmg-1.1",
+    "origin": "variance"
+  },
+  "WBGene00012132": {
+    "name": "ifta-2",
+    "origin": "variance"
+  },
+  "WBGene00009799": {
+    "name": "lgc-47",
+    "origin": "variance"
+  },
+  "WBGene00001986": {
+    "name": "hot-1",
+    "origin": "variance"
+  },
+  "WBGene00019713": {
+    "name": "pqn-52",
+    "origin": "variance"
+  },
+  "WBGene00021268": {
+    "name": "capa-1",
+    "origin": "variance"
+  },
+  "WBGene00019049": {
+    "name": "F58E2.5",
+    "origin": "variance"
+  },
+  "WBGene00011545": {
+    "name": "T06G6.3",
+    "origin": "variance"
+  },
+  "WBGene00194692": {
+    "name": "T02C12.5",
+    "origin": "variance"
+  },
+  "WBGene00021416": {
+    "name": "mksr-2",
+    "origin": "variance"
+  },
+  "WBGene00022191": {
+    "name": "Y71H2B.1",
+    "origin": "variance"
+  },
+  "WBGene00012616": {
+    "name": "dct-14",
+    "origin": "variance"
+  },
+  "WBGene00019904": {
+    "name": "twk-49",
+    "origin": "variance"
+  },
+  "WBGene00044144": {
+    "name": "M153.4",
+    "origin": "variance"
+  },
+  "WBGene00007816": {
+    "name": "C30F2.2",
+    "origin": "variance"
+  },
+  "WBGene00006775": {
+    "name": "unc-39",
+    "origin": "variance"
+  },
+  "WBGene00001959": {
+    "name": "hlh-15",
+    "origin": "variance"
+  },
+  "WBGene00022647": {
+    "name": "slc-17.1",
+    "origin": "variance"
+  },
+  "WBGene00007219": {
+    "name": "nlp-38",
+    "origin": "variance"
+  },
+  "WBGene00009562": {
+    "name": "flp-22",
+    "origin": "variance"
+  },
+  "WBGene00009375": {
+    "name": "F34D10.6",
+    "origin": "variance"
+  },
+  "WBGene00018376": {
+    "name": "F43C9.2",
+    "origin": "variance"
+  },
+  "WBGene00017292": {
+    "name": "F09E5.16",
+    "origin": "variance"
+  },
+  "WBGene00007384": {
+    "name": "swt-3",
+    "origin": "variance"
+  },
+  "WBGene00000452": {
+    "name": "ceh-31",
+    "origin": "variance"
+  },
+  "WBGene00022144": {
+    "name": "pghm-1",
+    "origin": "variance"
+  }
+}

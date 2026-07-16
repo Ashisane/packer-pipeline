@@ -1,0 +1,919 @@
+{
+  "ADEL": {
+    "packer_subtype": "ADE",
+    "n_cells_total": 90,
+    "n_cells_used": 24,
+    "time_threshold": 625.0,
+    "used_fallback": false
+  },
+  "ADER": {
+    "packer_subtype": "ADE",
+    "n_cells_total": 90,
+    "n_cells_used": 24,
+    "time_threshold": 625.0,
+    "used_fallback": false
+  },
+  "ADFL": {
+    "packer_subtype": "ADF",
+    "n_cells_total": 170,
+    "n_cells_used": 43,
+    "time_threshold": 633.75,
+    "used_fallback": false
+  },
+  "ADFR": {
+    "packer_subtype": "ADF",
+    "n_cells_total": 170,
+    "n_cells_used": 43,
+    "time_threshold": 633.75,
+    "used_fallback": false
+  },
+  "ADLL": {
+    "packer_subtype": "ADL",
+    "n_cells_total": 477,
+    "n_cells_used": 136,
+    "time_threshold": 640.0,
+    "used_fallback": false
+  },
+  "ADLR": {
+    "packer_subtype": "ADL",
+    "n_cells_total": 477,
+    "n_cells_used": 136,
+    "time_threshold": 640.0,
+    "used_fallback": false
+  },
+  "AFDL": {
+    "packer_subtype": "AFD",
+    "n_cells_total": 326,
+    "n_cells_used": 84,
+    "time_threshold": 630.0,
+    "used_fallback": false
+  },
+  "AFDR": {
+    "packer_subtype": "AFD",
+    "n_cells_total": 326,
+    "n_cells_used": 84,
+    "time_threshold": 630.0,
+    "used_fallback": false
+  },
+  "AIAL": {
+    "packer_subtype": "AIA",
+    "n_cells_total": 56,
+    "n_cells_used": 15,
+    "time_threshold": 640.0,
+    "used_fallback": false
+  },
+  "AIAR": {
+    "packer_subtype": "AIA",
+    "n_cells_total": 56,
+    "n_cells_used": 15,
+    "time_threshold": 640.0,
+    "used_fallback": false
+  },
+  "AIBL": {
+    "packer_subtype": "AIB",
+    "n_cells_total": 125,
+    "n_cells_used": 34,
+    "time_threshold": 635.0,
+    "used_fallback": false
+  },
+  "AIBR": {
+    "packer_subtype": "AIB",
+    "n_cells_total": 125,
+    "n_cells_used": 34,
+    "time_threshold": 635.0,
+    "used_fallback": false
+  },
+  "AIML": {
+    "packer_subtype": "AIM",
+    "n_cells_total": 94,
+    "n_cells_used": 24,
+    "time_threshold": 520.0,
+    "used_fallback": false
+  },
+  "AIMR": {
+    "packer_subtype": "AIM",
+    "n_cells_total": 94,
+    "n_cells_used": 24,
+    "time_threshold": 520.0,
+    "used_fallback": false
+  },
+  "AINL": {
+    "packer_subtype": "AIN",
+    "n_cells_total": 64,
+    "n_cells_used": 16,
+    "time_threshold": 532.5,
+    "used_fallback": false
+  },
+  "AINR": {
+    "packer_subtype": "AIN",
+    "n_cells_total": 64,
+    "n_cells_used": 16,
+    "time_threshold": 532.5,
+    "used_fallback": false
+  },
+  "AIYL": {
+    "packer_subtype": "AIY",
+    "n_cells_total": 149,
+    "n_cells_used": 50,
+    "time_threshold": 700.0,
+    "used_fallback": false
+  },
+  "AIYR": {
+    "packer_subtype": "AIY",
+    "n_cells_total": 149,
+    "n_cells_used": 50,
+    "time_threshold": 700.0,
+    "used_fallback": false
+  },
+  "AIZL": {
+    "packer_subtype": "AIZ",
+    "n_cells_total": 39,
+    "n_cells_used": 10,
+    "time_threshold": 515.0,
+    "used_fallback": false
+  },
+  "AIZR": {
+    "packer_subtype": "AIZ",
+    "n_cells_total": 39,
+    "n_cells_used": 10,
+    "time_threshold": 515.0,
+    "used_fallback": false
+  },
+  "ALA": {
+    "packer_subtype": "ALA",
+    "n_cells_total": 122,
+    "n_cells_used": 36,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "ALNL": {
+    "packer_subtype": "ALN",
+    "n_cells_total": 28,
+    "n_cells_used": 7,
+    "time_threshold": 505.0,
+    "used_fallback": false
+  },
+  "ALNR": {
+    "packer_subtype": "ALN",
+    "n_cells_total": 28,
+    "n_cells_used": 7,
+    "time_threshold": 505.0,
+    "used_fallback": false
+  },
+  "ASEL": {
+    "packer_subtype": "ASE",
+    "n_cells_total": 282,
+    "n_cells_used": 76,
+    "time_threshold": 635.0,
+    "used_fallback": false
+  },
+  "ASER": {
+    "packer_subtype": "ASE",
+    "n_cells_total": 282,
+    "n_cells_used": 76,
+    "time_threshold": 635.0,
+    "used_fallback": false
+  },
+  "ASGL": {
+    "packer_subtype": "ASG",
+    "n_cells_total": 173,
+    "n_cells_used": 44,
+    "time_threshold": 630.0,
+    "used_fallback": false
+  },
+  "ASGR": {
+    "packer_subtype": "ASG",
+    "n_cells_total": 173,
+    "n_cells_used": 44,
+    "time_threshold": 630.0,
+    "used_fallback": false
+  },
+  "ASHL": {
+    "packer_subtype": "ASH",
+    "n_cells_total": 345,
+    "n_cells_used": 90,
+    "time_threshold": 630.0,
+    "used_fallback": false
+  },
+  "ASHR": {
+    "packer_subtype": "ASH",
+    "n_cells_total": 345,
+    "n_cells_used": 90,
+    "time_threshold": 630.0,
+    "used_fallback": false
+  },
+  "ASIL": {
+    "packer_subtype": "ASI",
+    "n_cells_total": 212,
+    "n_cells_used": 70,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "ASIR": {
+    "packer_subtype": "ASI",
+    "n_cells_total": 212,
+    "n_cells_used": 70,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "ASJL": {
+    "packer_subtype": "ASJ",
+    "n_cells_total": 320,
+    "n_cells_used": 86,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "ASJR": {
+    "packer_subtype": "ASJ",
+    "n_cells_total": 320,
+    "n_cells_used": 86,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "ASKL": {
+    "packer_subtype": "ASK",
+    "n_cells_total": 233,
+    "n_cells_used": 64,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "ASKR": {
+    "packer_subtype": "ASK",
+    "n_cells_total": 233,
+    "n_cells_used": 64,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "AUAL": {
+    "packer_subtype": "AUA",
+    "n_cells_total": 154,
+    "n_cells_used": 40,
+    "time_threshold": 530.0,
+    "used_fallback": false
+  },
+  "AUAR": {
+    "packer_subtype": "AUA",
+    "n_cells_total": 154,
+    "n_cells_used": 40,
+    "time_threshold": 530.0,
+    "used_fallback": false
+  },
+  "AVAL": {
+    "packer_subtype": "AVA",
+    "n_cells_total": 248,
+    "n_cells_used": 69,
+    "time_threshold": 450.0,
+    "used_fallback": false
+  },
+  "AVAR": {
+    "packer_subtype": "AVA",
+    "n_cells_total": 248,
+    "n_cells_used": 69,
+    "time_threshold": 450.0,
+    "used_fallback": false
+  },
+  "AVBL": {
+    "packer_subtype": "AVB",
+    "n_cells_total": 187,
+    "n_cells_used": 48,
+    "time_threshold": 670.0,
+    "used_fallback": false
+  },
+  "AVBR": {
+    "packer_subtype": "AVB",
+    "n_cells_total": 187,
+    "n_cells_used": 48,
+    "time_threshold": 670.0,
+    "used_fallback": false
+  },
+  "AVDL": {
+    "packer_subtype": "AVD",
+    "n_cells_total": 99,
+    "n_cells_used": 27,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "AVDR": {
+    "packer_subtype": "AVD",
+    "n_cells_total": 99,
+    "n_cells_used": 27,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "AVEL": {
+    "packer_subtype": "AVE",
+    "n_cells_total": 177,
+    "n_cells_used": 53,
+    "time_threshold": 450.0,
+    "used_fallback": false
+  },
+  "AVER": {
+    "packer_subtype": "AVE",
+    "n_cells_total": 177,
+    "n_cells_used": 53,
+    "time_threshold": 450.0,
+    "used_fallback": false
+  },
+  "AVHL": {
+    "packer_subtype": "AVH",
+    "n_cells_total": 94,
+    "n_cells_used": 31,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "AVHR": {
+    "packer_subtype": "AVH",
+    "n_cells_total": 94,
+    "n_cells_used": 31,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "AVJL": {
+    "packer_subtype": "AVJ",
+    "n_cells_total": 53,
+    "n_cells_used": 14,
+    "time_threshold": 455.0,
+    "used_fallback": false
+  },
+  "AVJR": {
+    "packer_subtype": "AVJ",
+    "n_cells_total": 53,
+    "n_cells_used": 14,
+    "time_threshold": 455.0,
+    "used_fallback": false
+  },
+  "AVKL": {
+    "packer_subtype": "AVK",
+    "n_cells_total": 336,
+    "n_cells_used": 85,
+    "time_threshold": 640.0,
+    "used_fallback": false
+  },
+  "AVKR": {
+    "packer_subtype": "AVK",
+    "n_cells_total": 336,
+    "n_cells_used": 85,
+    "time_threshold": 640.0,
+    "used_fallback": false
+  },
+  "AVL": {
+    "packer_subtype": "AVL",
+    "n_cells_total": 114,
+    "n_cells_used": 35,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "AWAL": {
+    "packer_subtype": "AWA",
+    "n_cells_total": 236,
+    "n_cells_used": 91,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "AWAR": {
+    "packer_subtype": "AWA",
+    "n_cells_total": 236,
+    "n_cells_used": 91,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "AWBL": {
+    "packer_subtype": "AWB",
+    "n_cells_total": 212,
+    "n_cells_used": 58,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "AWBR": {
+    "packer_subtype": "AWB",
+    "n_cells_total": 212,
+    "n_cells_used": 58,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "AWCL": {
+    "packer_subtype": "AWC",
+    "n_cells_total": 309,
+    "n_cells_used": 96,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "AWCR": {
+    "packer_subtype": "AWC",
+    "n_cells_total": 309,
+    "n_cells_used": 96,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "BAGL": {
+    "packer_subtype": "BAG",
+    "n_cells_total": 265,
+    "n_cells_used": 70,
+    "time_threshold": 635.0,
+    "used_fallback": false
+  },
+  "BAGR": {
+    "packer_subtype": "BAG",
+    "n_cells_total": 265,
+    "n_cells_used": 70,
+    "time_threshold": 635.0,
+    "used_fallback": false
+  },
+  "CANR": {
+    "packer_subtype": "CAN",
+    "n_cells_total": 332,
+    "n_cells_used": 121,
+    "time_threshold": 490.0,
+    "used_fallback": false
+  },
+  "CEPDL": {
+    "packer_subtype": "CEP",
+    "n_cells_total": 152,
+    "n_cells_used": 38,
+    "time_threshold": 522.5,
+    "used_fallback": false
+  },
+  "CEPDR": {
+    "packer_subtype": "CEP",
+    "n_cells_total": 152,
+    "n_cells_used": 38,
+    "time_threshold": 522.5,
+    "used_fallback": false
+  },
+  "CEPVL": {
+    "packer_subtype": "CEP",
+    "n_cells_total": 152,
+    "n_cells_used": 38,
+    "time_threshold": 522.5,
+    "used_fallback": false
+  },
+  "CEPVR": {
+    "packer_subtype": "CEP",
+    "n_cells_total": 152,
+    "n_cells_used": 38,
+    "time_threshold": 522.5,
+    "used_fallback": false
+  },
+  "DVA": {
+    "packer_subtype": "DVA",
+    "n_cells_total": 99,
+    "n_cells_used": 25,
+    "time_threshold": 632.5,
+    "used_fallback": false
+  },
+  "DVC": {
+    "packer_subtype": "DVC",
+    "n_cells_total": 101,
+    "n_cells_used": 34,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "FLPL": {
+    "packer_subtype": "FLP",
+    "n_cells_total": 19,
+    "n_cells_used": 7,
+    "time_threshold": 415.0,
+    "used_fallback": false
+  },
+  "FLPR": {
+    "packer_subtype": "FLP",
+    "n_cells_total": 19,
+    "n_cells_used": 7,
+    "time_threshold": 415.0,
+    "used_fallback": false
+  },
+  "IL1DL": {
+    "packer_subtype": "IL1",
+    "n_cells_total": 164,
+    "n_cells_used": 42,
+    "time_threshold": 555.0,
+    "used_fallback": false
+  },
+  "IL1DR": {
+    "packer_subtype": "IL1",
+    "n_cells_total": 164,
+    "n_cells_used": 42,
+    "time_threshold": 555.0,
+    "used_fallback": false
+  },
+  "IL1L": {
+    "packer_subtype": "IL1",
+    "n_cells_total": 164,
+    "n_cells_used": 42,
+    "time_threshold": 555.0,
+    "used_fallback": false
+  },
+  "IL1R": {
+    "packer_subtype": "IL1",
+    "n_cells_total": 164,
+    "n_cells_used": 42,
+    "time_threshold": 555.0,
+    "used_fallback": false
+  },
+  "IL1VL": {
+    "packer_subtype": "IL1",
+    "n_cells_total": 164,
+    "n_cells_used": 42,
+    "time_threshold": 555.0,
+    "used_fallback": false
+  },
+  "IL1VR": {
+    "packer_subtype": "IL1",
+    "n_cells_total": 164,
+    "n_cells_used": 42,
+    "time_threshold": 555.0,
+    "used_fallback": false
+  },
+  "IL2DL": {
+    "packer_subtype": "IL2",
+    "n_cells_total": 391,
+    "n_cells_used": 103,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "IL2DR": {
+    "packer_subtype": "IL2",
+    "n_cells_total": 391,
+    "n_cells_used": 103,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "IL2L": {
+    "packer_subtype": "IL2",
+    "n_cells_total": 391,
+    "n_cells_used": 103,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "IL2R": {
+    "packer_subtype": "IL2",
+    "n_cells_total": 391,
+    "n_cells_used": 103,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "IL2VL": {
+    "packer_subtype": "IL2",
+    "n_cells_total": 391,
+    "n_cells_used": 103,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "IL2VR": {
+    "packer_subtype": "IL2",
+    "n_cells_total": 391,
+    "n_cells_used": 103,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "OLLL": {
+    "packer_subtype": "OLL",
+    "n_cells_total": 108,
+    "n_cells_used": 29,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "OLLR": {
+    "packer_subtype": "OLL",
+    "n_cells_total": 108,
+    "n_cells_used": 29,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "OLQDL": {
+    "packer_subtype": "OLQ",
+    "n_cells_total": 254,
+    "n_cells_used": 93,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "OLQDR": {
+    "packer_subtype": "OLQ",
+    "n_cells_total": 254,
+    "n_cells_used": 93,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "OLQVL": {
+    "packer_subtype": "OLQ",
+    "n_cells_total": 254,
+    "n_cells_used": 93,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "OLQVR": {
+    "packer_subtype": "OLQ",
+    "n_cells_total": 254,
+    "n_cells_used": 93,
+    "time_threshold": 620.0,
+    "used_fallback": false
+  },
+  "PVPL": {
+    "packer_subtype": "PVP",
+    "n_cells_total": 116,
+    "n_cells_used": 29,
+    "time_threshold": 556.25,
+    "used_fallback": false
+  },
+  "PVPR": {
+    "packer_subtype": "PVP",
+    "n_cells_total": 116,
+    "n_cells_used": 29,
+    "time_threshold": 556.25,
+    "used_fallback": false
+  },
+  "PVR": {
+    "packer_subtype": "PVR",
+    "n_cells_total": 14,
+    "n_cells_used": 6,
+    "time_threshold": 355.0,
+    "used_fallback": false
+  },
+  "PVT": {
+    "packer_subtype": "PVT",
+    "n_cells_total": 54,
+    "n_cells_used": 15,
+    "time_threshold": 700.0,
+    "used_fallback": false
+  },
+  "RIAL": {
+    "packer_subtype": "RIA",
+    "n_cells_total": 260,
+    "n_cells_used": 110,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "RIAR": {
+    "packer_subtype": "RIA",
+    "n_cells_total": 260,
+    "n_cells_used": 110,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "RIBL": {
+    "packer_subtype": "RIB",
+    "n_cells_total": 86,
+    "n_cells_used": 23,
+    "time_threshold": 585.0,
+    "used_fallback": false
+  },
+  "RIBR": {
+    "packer_subtype": "RIB",
+    "n_cells_total": 86,
+    "n_cells_used": 23,
+    "time_threshold": 585.0,
+    "used_fallback": false
+  },
+  "RICL": {
+    "packer_subtype": "RIC",
+    "n_cells_total": 69,
+    "n_cells_used": 18,
+    "time_threshold": 565.0,
+    "used_fallback": false
+  },
+  "RICR": {
+    "packer_subtype": "RIC",
+    "n_cells_total": 69,
+    "n_cells_used": 18,
+    "time_threshold": 565.0,
+    "used_fallback": false
+  },
+  "RID": {
+    "packer_subtype": "RID",
+    "n_cells_total": 55,
+    "n_cells_used": 18,
+    "time_threshold": 510.0,
+    "used_fallback": false
+  },
+  "RIH": {
+    "packer_subtype": "RIH",
+    "n_cells_total": 38,
+    "n_cells_used": 13,
+    "time_threshold": 440.0,
+    "used_fallback": false
+  },
+  "RIML": {
+    "packer_subtype": "RIM",
+    "n_cells_total": 157,
+    "n_cells_used": 40,
+    "time_threshold": 530.0,
+    "used_fallback": false
+  },
+  "RIMR": {
+    "packer_subtype": "RIM",
+    "n_cells_total": 157,
+    "n_cells_used": 40,
+    "time_threshold": 530.0,
+    "used_fallback": false
+  },
+  "RIS": {
+    "packer_subtype": "RIS",
+    "n_cells_total": 126,
+    "n_cells_used": 32,
+    "time_threshold": 692.5,
+    "used_fallback": false
+  },
+  "RIVL": {
+    "packer_subtype": "RIV",
+    "n_cells_total": 198,
+    "n_cells_used": 51,
+    "time_threshold": 520.0,
+    "used_fallback": false
+  },
+  "RIVR": {
+    "packer_subtype": "RIV",
+    "n_cells_total": 198,
+    "n_cells_used": 51,
+    "time_threshold": 520.0,
+    "used_fallback": false
+  },
+  "RMDDL": {
+    "packer_subtype": "RMD",
+    "n_cells_total": 199,
+    "n_cells_used": 81,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "RMDDR": {
+    "packer_subtype": "RMD",
+    "n_cells_total": 199,
+    "n_cells_used": 81,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "RMDL": {
+    "packer_subtype": "RMD",
+    "n_cells_total": 199,
+    "n_cells_used": 81,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "RMDR": {
+    "packer_subtype": "RMD",
+    "n_cells_total": 199,
+    "n_cells_used": 81,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "RMDVL": {
+    "packer_subtype": "RMD",
+    "n_cells_total": 199,
+    "n_cells_used": 81,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "RMDVR": {
+    "packer_subtype": "RMD",
+    "n_cells_total": 199,
+    "n_cells_used": 81,
+    "time_threshold": 550.0,
+    "used_fallback": false
+  },
+  "RMED": {
+    "packer_subtype": "RMED",
+    "n_cells_total": 25,
+    "n_cells_used": 9,
+    "time_threshold": 380.0,
+    "used_fallback": false
+  },
+  "RMEL": {
+    "packer_subtype": "RME",
+    "n_cells_total": 335,
+    "n_cells_used": 107,
+    "time_threshold": 490.0,
+    "used_fallback": false
+  },
+  "RMER": {
+    "packer_subtype": "RME",
+    "n_cells_total": 335,
+    "n_cells_used": 107,
+    "time_threshold": 490.0,
+    "used_fallback": false
+  },
+  "SIADL": {
+    "packer_subtype": "SIA",
+    "n_cells_total": 200,
+    "n_cells_used": 54,
+    "time_threshold": 480.0,
+    "used_fallback": false
+  },
+  "SIADR": {
+    "packer_subtype": "SIA",
+    "n_cells_total": 200,
+    "n_cells_used": 54,
+    "time_threshold": 480.0,
+    "used_fallback": false
+  },
+  "SIAVL": {
+    "packer_subtype": "SIA",
+    "n_cells_total": 200,
+    "n_cells_used": 54,
+    "time_threshold": 480.0,
+    "used_fallback": false
+  },
+  "SIAVR": {
+    "packer_subtype": "SIA",
+    "n_cells_total": 200,
+    "n_cells_used": 54,
+    "time_threshold": 480.0,
+    "used_fallback": false
+  },
+  "SIBDL": {
+    "packer_subtype": "SIB",
+    "n_cells_total": 124,
+    "n_cells_used": 33,
+    "time_threshold": 440.0,
+    "used_fallback": false
+  },
+  "SIBDR": {
+    "packer_subtype": "SIB",
+    "n_cells_total": 124,
+    "n_cells_used": 33,
+    "time_threshold": 440.0,
+    "used_fallback": false
+  },
+  "SIBVL": {
+    "packer_subtype": "SIB",
+    "n_cells_total": 124,
+    "n_cells_used": 33,
+    "time_threshold": 440.0,
+    "used_fallback": false
+  },
+  "SIBVR": {
+    "packer_subtype": "SIB",
+    "n_cells_total": 124,
+    "n_cells_used": 33,
+    "time_threshold": 440.0,
+    "used_fallback": false
+  },
+  "SMBDL": {
+    "packer_subtype": "SMB",
+    "n_cells_total": 177,
+    "n_cells_used": 52,
+    "time_threshold": 490.0,
+    "used_fallback": false
+  },
+  "SMBDR": {
+    "packer_subtype": "SMB",
+    "n_cells_total": 177,
+    "n_cells_used": 52,
+    "time_threshold": 490.0,
+    "used_fallback": false
+  },
+  "SMBVL": {
+    "packer_subtype": "SMB",
+    "n_cells_total": 177,
+    "n_cells_used": 52,
+    "time_threshold": 490.0,
+    "used_fallback": false
+  },
+  "SMBVR": {
+    "packer_subtype": "SMB",
+    "n_cells_total": 177,
+    "n_cells_used": 52,
+    "time_threshold": 490.0,
+    "used_fallback": false
+  },
+  "SMDDL": {
+    "packer_subtype": "SMD",
+    "n_cells_total": 303,
+    "n_cells_used": 84,
+    "time_threshold": 510.0,
+    "used_fallback": false
+  },
+  "SMDDR": {
+    "packer_subtype": "SMD",
+    "n_cells_total": 303,
+    "n_cells_used": 84,
+    "time_threshold": 510.0,
+    "used_fallback": false
+  },
+  "SMDVL": {
+    "packer_subtype": "SMD",
+    "n_cells_total": 303,
+    "n_cells_used": 84,
+    "time_threshold": 510.0,
+    "used_fallback": false
+  },
+  "SMDVR": {
+    "packer_subtype": "SMD",
+    "n_cells_total": 303,
+    "n_cells_used": 84,
+    "time_threshold": 510.0,
+    "used_fallback": false
+  },
+  "URXL": {
+    "packer_subtype": "URX",
+    "n_cells_total": 230,
+    "n_cells_used": 74,
+    "time_threshold": 670.0,
+    "used_fallback": false
+  },
+  "URXR": {
+    "packer_subtype": "URX",
+    "n_cells_total": 230,
+    "n_cells_used": 74,
+    "time_threshold": 670.0,
+    "used_fallback": false
+  }
+}
